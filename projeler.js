@@ -7,7 +7,7 @@ const PROJELER = [
     platform: "Windows",
     aciklama:
       "Ders programı hazırlama masaüstü uygulaması. Taşınabilir sürüm: kurulum gerekmez, EXE dosyasını indirip çift tıklamanız yeterli.",
-    link: "https://github.com/Ahmet0204/adyu-dps/releases/latest/download/ADYU.DPS.exe",
+    link: "https://github.com/Ahmet0204/site/releases/download/adyu-dps/ADYU-DPS.exe",
     etiket: "İndir (.exe)",
   },
   {
@@ -16,8 +16,8 @@ const PROJELER = [
     platform: "Tarayıcı",
     aciklama:
       "ADYÜ DPS'nin tarayıcıda çalışan sürümü. Kurulum, kullanıcı girişi ve sunucu gerekmez; çalışmanız tarayıcıya kaydedilir, JSON olarak yedeklenebilir.",
-    link: "https://online-dps.tokmak.workers.dev",
-    etiket: "Aç",
+    link: "https://github.com/Ahmet0204/site/releases/download/online-dps/ADYU-DPS-Online.html",
+    etiket: "İndir (.html)",
   },
   {
     ad: "HesApp",
@@ -25,7 +25,7 @@ const PROJELER = [
     platform: "Android",
     aciklama:
       "Oyunlarda puan ve hesap tutmak için Android uygulaması. Oyun modunu seçin, puanları sütunlara girin, toplamları otomatik görün.",
-    link: "https://github.com/Ahmet0204/site/releases/latest/download/HesApp.apk",
+    link: "https://github.com/Ahmet0204/site/releases/download/hesapp/HesApp.apk",
     etiket: "İndir (.apk)",
   },
 ];
