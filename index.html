@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projelerim</title>
+  <meta name="description" content="Ahmet Tokmak'ın geliştirdiği uygulamalar ve güncel sürümleri.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Projelerim</h1>
+    <p>Geliştirdiğim uygulamaların güncel sürümleri. İndirmek ya da açmak için butona tıklayın.</p>
+  </header>
+
+  <main id="liste"></main>
+
+  <footer>Ahmet TOKMAK</footer>
+
+  <script src="projeler.js"></script>
+  <script>
+    const liste = document.getElementById("liste");
+    for (const p of PROJELER) {
+      const kart = document.createElement("article");
+      kart.innerHTML = `
+        <div class="ust">
+          <h2></h2>
+          <span class="surum"></span>
+        </div>
+        <span class="platform"></span>
+        <p></p>
+        <a class="buton" rel="noopener"></a>`;
+      kart.querySelector("h2").textContent = p.ad;
+      kart.querySelector(".surum").textContent = "v" + p.surum;
+      kart.querySelector(".platform").textContent = p.platform;
+      kart.querySelector("p").textContent = p.aciklama;
+      const a = kart.querySelector("a");
+      a.href = p.link;
+      a.textContent = p.etiket;
+      liste.appendChild(kart);
+    }
+  </script>
+</body>
+</html>
