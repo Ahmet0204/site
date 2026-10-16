@@ -1,0 +1,7 @@
+# Cloudflare Worker: siteyi statik dosya olarak sunar.
+# Yayınlamak için:  wrangler deploy
+name = "ahmet"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "."
