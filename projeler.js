@@ -6,7 +6,7 @@ const PROJELER = [
     surum: "2026.10.15",
     platform: "Windows",
     aciklama:
-      "Ders programı hazırlama masaüstü uygulaması. Taşınabilir sürüm: kurulum gerekmez, EXE dosyasını indirip çift tıklamanız yeterli.",
+      "Haftalık ders programı ve sınav takvimi hazırlama masaüstü uygulaması. Taşınabilir sürüm: kurulum gerekmez, EXE dosyasını indirip çift tıklamanız yeterli.",
     link: "https://github.com/Ahmet0204/site/releases/download/adyu-dps/ADYU-DPS.exe",
     etiket: "İndir (.exe)",
   },
@@ -15,7 +15,7 @@ const PROJELER = [
     surum: "2026.10",
     platform: "Tarayıcı",
     aciklama:
-      "Deneme sürümüdür. ADYÜ DPS'nin tarayıcıda çalışan sürümü; kurulum, kullanıcı girişi ve sunucu gerekmez, çalışmanız tarayıcıya kaydedilir ve JSON olarak yedeklenebilir. Düzenli kullanım için masaüstü uygulaması ADYÜ DPS'yi tavsiye ederiz.",
+      "Deneme sürümüdür. ADYÜ DPS'nin tarayıcıda çalışan sürümü: haftalık ders programı ve sınav takvimi hazırlayabilirsiniz. Kurulum, kullanıcı girişi ve sunucu gerekmez, çalışmanız tarayıcıya kaydedilir ve JSON olarak yedeklenebilir. Düzenli kullanım için masaüstü uygulaması ADYÜ DPS'yi tavsiye ederiz.",
     link: "https://github.com/Ahmet0204/site/releases/download/online-dps/ADYU-DPS-Online.html",
     etiket: "İndir (.html)",
   },
