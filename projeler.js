@@ -15,7 +15,7 @@ const PROJELER = [
     surum: "2026.10",
     platform: "Tarayıcı",
     aciklama:
-      "ADYÜ DPS'nin tarayıcıda çalışan sürümü. Kurulum, kullanıcı girişi ve sunucu gerekmez; çalışmanız tarayıcıya kaydedilir, JSON olarak yedeklenebilir.",
+      "Deneme sürümüdür. ADYÜ DPS'nin tarayıcıda çalışan sürümü; kurulum, kullanıcı girişi ve sunucu gerekmez, çalışmanız tarayıcıya kaydedilir ve JSON olarak yedeklenebilir. Düzenli kullanım için masaüstü uygulaması ADYÜ DPS'yi tavsiye ederiz.",
     link: "https://github.com/Ahmet0204/site/releases/download/online-dps/ADYU-DPS-Online.html",
     etiket: "İndir (.html)",
   },
@@ -24,7 +24,7 @@ const PROJELER = [
     surum: "3.3",
     platform: "Android",
     aciklama:
-      "Oyunlarda puan ve hesap tutmak için Android uygulaması. Oyun modunu seçin, puanları sütunlara girin, toplamları otomatik görün.",
+      "Oyunlarda puan ve hesap tutmak için uygulama. Yalnızca Android telefon ve tabletlerde çalışır. Oyun modunu seçin, puanları sütunlara girin, toplamları otomatik görün. Kurulum: Uygulama Play Store dışından yüklendiği için telefonunuz \"bilinmeyen kaynaklardan yükleme\" izni isteyebilir ve Play Protect \"güvenli olmayan uygulama\" uyarısı gösterebilir. İzni verip \"Yine de yükle\" seçeneğiyle kuruluma devam edebilirsiniz.",
     link: "https://github.com/Ahmet0204/site/releases/download/hesapp/HesApp.apk",
     etiket: "İndir (.apk)",
   },
