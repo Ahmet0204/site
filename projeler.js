@@ -15,9 +15,9 @@ const PROJELER = [
     surum: "2026.10",
     platform: "Tarayıcı",
     aciklama:
-      "Deneme sürümüdür. ADYÜ DPS'nin tarayıcıda çalışan sürümü: haftalık ders programı ve sınav takvimi hazırlayabilirsiniz. Kurulum, kullanıcı girişi ve sunucu gerekmez, çalışmanız tarayıcıya kaydedilir ve JSON olarak yedeklenebilir. Düzenli kullanım için masaüstü uygulaması ADYÜ DPS'yi tavsiye ederiz.",
-    link: "https://github.com/Ahmet0204/site/releases/download/online-dps/ADYU-DPS-Online.html",
-    etiket: "İndir (.html)",
+      "Deneme sürümüdür. ADYÜ DPS'nin tarayıcıda çalışan sürümü: haftalık ders programı ve sınav takvimi hazırlayabilirsiniz. Kurulum ve kullanıcı girişi gerekmez, çalışmanız tarayıcıya kaydedilir ve JSON olarak yedeklenebilir. Düzenli kullanım için masaüstü uygulaması ADYÜ DPS'yi tavsiye ederiz.",
+    link: "https://online-dps.tokmak.workers.dev",
+    etiket: "Siteye Git",
   },
   {
     ad: "HesApp",
